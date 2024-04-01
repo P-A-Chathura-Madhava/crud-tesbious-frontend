@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UserList from "./pages/UserList.jsx";
 import AddUser from "./pages/AddUser.jsx";
+import EditUser from "./pages/EditUser.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/edit-user",
-        element: <h1>Edit User</h1>,
+        element: <EditUser />,
       },
     ]
   },  
