@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UserList from "./pages/UserList.jsx";
+import AddUser from "./pages/AddUser.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/add-user",
-        element: <h1>Add User</h1>,
+        element: <AddUser />,
       },
       {
         path: "/edit-user",
